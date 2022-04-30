@@ -1,0 +1,202 @@
+.welcome{
+background:url(https://www.wallpaperup.com/uploads/wallpapers/2013/12/26/205901/e0389e2031c3b353637bb0c3c5739117.jpg);
+background-size:cover;
+width: 100%;
+height: 100vh;
+
+}
+.welcome-dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:40%;
+    text-align: center;
+}
+.title span{
+    opacity: 0.9;
+    color : yellow;
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 0.2cm; 
+}
+.title p:first-of-type{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.title button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 110%;
+    height: 60px;
+    color: white;
+    background-color: rgba(255, 255, 0, 0.644);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 70%;
+}
+.title button:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    font-size: 25px;
+    transition: 0.4s;  
+}
+.register h1{
+    color: white;
+}
+.register{
+    background-color: rgba(0,0,0,.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    color:#8C8C8C;
+}
+.register input{
+    font-size: 16px;
+    color:#8C8C8C;
+    background-color: #333333 ;
+    width: 80%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.register button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 40px;
+    color: white;
+    background-color: rgba(255, 255, 0, 0.644);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.register button:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    font-size: 25px;
+    transition: 0.4s;  
+}
+.register a{
+    text-decoration: none;
+    color: white;
+}
+.part-two{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.89);
+    position: relative;
+
+    
+}
+.new-account{
+    background-color: rgba(0,0,0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 480px;
+    border-radius: 10px;
+    color:#8C8C8C;
+    margin-inline:  auto;
+    position: absolute;
+    top:100px;
+    left:35vw   
+}
+.new-account .name{
+    width: 85%;
+    display: flex;
+    justify-content:space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.new-account .name input{
+    width: 45%;  
+}
+.new-account input{
+    font-size: 16px;
+    color:#8C8C8C;
+    background-color: #333333;
+    width: 80%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.new-account button{
+    margin-bottom: 10px;
+    width: 80%;
+    height: 40px;
+    color: white;
+    background-color: rgba(255, 255, 0, 0.644);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.new-account button:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+.footer{
+    background-color:rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 17px;
+    width: 100%;
+    height: 25vh;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.footer p:first-of-type{
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    margin: 0 20px 25px 20px;
+}
+.footer a:hover{
+    color: rgba(255, 255, 0, 0.644);
+}
+#haut{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 92vw;
+}
+
+
+@media (max-width: 820px){
+    .welcome-dark{
+       flex-direction:column;
+    }
+}
+    
